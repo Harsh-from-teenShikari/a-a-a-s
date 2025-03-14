@@ -1,0 +1,41 @@
+stepstake/
+├── mobile/                      # React Native Mobile App
+│   ├── src/
+│   │   ├── api/                 # API integration
+│   │   ├── components/          # Reusable UI components
+│   │   ├── hooks/               # Custom React hooks
+│   │   ├── navigation/          # Navigation configuration
+│   │   ├── screens/             # App screens
+│   │   ├── services/            # Core services
+│   │   │   ├── blockchain.js    # Solana integration
+│   │   │   ├── challenges.js    # Challenge management
+│   │   │   ├── health/          # Health API integrations
+│   │   │   └── wallet.js        # Wallet management
+│   │   ├── store/               # State management
+│   │   └── utils/               # Utilities
+│   ├── __tests__/               # Unit and integration tests
+│   ├── app.json                 # App configuration
+│   └── package.json             # Dependencies
+├── backend/                     # Node.js Backend Service
+│   ├── src/
+│   │   ├── api/                 # API endpoints
+│   │   ├── config/              # Configuration
+│   │   ├── db/                  # Database models
+│   │   ├── middleware/          # Express middleware
+│   │   ├── services/            # Business logic
+│   │   │   ├── blockchain.js    # Solana integration
+│   │   │   ├── challenges.js    # Challenge management
+│   │   │   └── users.js         # User management
+│   │   └── utils/               # Utilities
+│   ├── tests/                   # Tests
+│   └── package.json             # Dependencies
+├── blockchain/                  # Solana Smart Contracts
+│   ├── src/
+│   │   ├── challenge-program/   # Challenge program logic
+│   │   └── utils/               # Blockchain utilities
+│   ├── tests/                   # Smart contract tests
+│   └── package.json             # Dependencies
+└── docs/                        # Documentation
+    ├── api-docs.md              # API documentation
+    ├── setup.md                 # Setup instructions
+    └── architecture.md          # Architecture overview
